@@ -1,0 +1,79 @@
+baseURL = 'https://jachapman.github.io/writing/'
+locale = 'en-us'
+title = 'Joseph Chapman'
+theme = 'congo'
+
+[pagination]
+pagerSize = 10
+
+[params]
+description = 'Essays, book reviews, political and historical commentary, and personal reflections.'
+colorScheme = 'congo'
+defaultAppearance = 'dark'
+autoSwitchAppearance = false
+enableSearch = true
+enableCodeCopy = true
+
+[params.author]
+name = 'Joseph Chapman'
+headline = 'Essays, book reviews, and things I think about outside of cybersecurity.'
+
+[header]
+layout = 'basic'
+showTitle = true
+
+[footer]
+showCopyright = true
+showThemeAttribution = false
+showScrollToTop = true
+
+[homepage]
+layout = 'page'
+showRecent = true
+recentLimit = 5
+
+[article]
+showDate = true
+showAuthor = true
+showBreadcrumbs = true
+showDraftLabel = true
+showHeadingAnchors = true
+showReadingTime = true
+showTableOfContents = true
+showWordCount = false
+showComments = false
+
+[list]
+showBreadcrumbs = true
+showSummary = true
+showTableOfContents = false
+
+[[menu.main]]
+identifier = 'essays'
+name = 'Essays'
+url = '/essays/'
+weight = 10
+
+[[menu.main]]
+identifier = 'book-reviews'
+name = 'Book Reviews'
+url = '/book-reviews/'
+weight = 20
+
+[[menu.main]]
+identifier = 'commentary'
+name = 'Commentary'
+url = '/commentary/'
+weight = 30
+
+[[menu.main]]
+identifier = 'reflections'
+name = 'Reflections'
+url = '/reflections/'
+weight = 40
+
+[[menu.main]]
+identifier = 'technical-work'
+name = 'Technical Work ↗'
+url = 'https://jachapman.github.io/'
+weight = 50
