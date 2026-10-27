@@ -73,6 +73,12 @@ url = '/reflections/'
 weight = 40
 
 [[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 45
+
+[[menu.main]]
 identifier = 'technical-work'
 name = 'Technical Work ↗'
 url = 'https://jachapman.github.io/'
