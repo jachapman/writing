@@ -1,5 +1,6 @@
 +++
 title = 'About'
+date = '2026-10-26T19:00:00-05:00'
 draft = false
 +++
 
